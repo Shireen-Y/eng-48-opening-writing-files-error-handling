@@ -26,6 +26,16 @@ Topics covered:
         block of code
         block of code
         print(place_holder)
+    finally:
+        block that runs after
+````
+
+### Using open() and with()
+- When using open() you need to close the files you actually open
+- You can use this step using 'with':
+````
+    with open(<file>, <option>) as <place_holder>:
+        <place_holder>.readlines()
 ````
 
 ### Exceptions
